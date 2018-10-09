@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.Home.Associate_Home">
+      <class name="com.MyCustomers.My_customers">
         <methods>
           <include name="tearDown"/>
-          <include name="TCBA01103"/>
           <include name="setup1"/>
+          <include name="TCBA01403"/>
         </methods>
-      </class> <!-- com.Home.Associate_Home -->
+      </class> <!-- com.MyCustomers.My_customers -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
