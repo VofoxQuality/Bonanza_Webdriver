@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="41214" started-at="2018-10-10T12:05:47Z" finished-at="2018-10-10T12:06:28Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="41214" started-at="2018-10-10T12:05:47Z" finished-at="2018-10-10T12:06:28Z">
+      <class name="com.Home.Associate_Home">
+        <test-method status="PASS" signature="setup1()[pri:0, instance:com.Home.Associate_Home@60f82f98]" name="setup1" is-config="true" duration-ms="11823" started-at="2018-10-10T17:35:47Z" finished-at="2018-10-10T17:35:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup1 -->
+        <test-method status="PASS" signature="TCBA01101()[pri:0, instance:com.Home.Associate_Home@60f82f98]" name="TCBA01101" duration-ms="4325" started-at="2018-10-10T17:35:59Z" finished-at="2018-10-10T17:36:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCBA01101 -->
+        <test-method status="PASS" signature="TCBA01102()[pri:0, instance:com.Home.Associate_Home@60f82f98]" name="TCBA01102" duration-ms="22643" started-at="2018-10-10T17:36:03Z" finished-at="2018-10-10T17:36:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCBA01102 -->
+        <test-method status="PASS" signature="TCBA01103()[pri:0, instance:com.Home.Associate_Home@60f82f98]" name="TCBA01103" duration-ms="2407" started-at="2018-10-10T17:36:26Z" finished-at="2018-10-10T17:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCBA01103 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Home.Associate_Home@60f82f98]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-10-10T17:36:28Z" finished-at="2018-10-10T17:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Home.Associate_Home -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

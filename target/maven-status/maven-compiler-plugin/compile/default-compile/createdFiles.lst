@@ -1,1 +1,4 @@
-com\automation\Bonanza_Maven_Automation\App.class
+com\MyCustomers\My_customers.class
+com\Home\Associate_Login.class
+com\Home\Associate_Home.class
+com\Library\UtilityClass.class
