@@ -16,22 +16,7 @@ public class Associate_Login extends UtilityClass
 		{
 			String title=driver.getTitle();			
 			Assert.assertEquals(title,"IGL");
-		} 
-		catch (Exception e)
-		{
-			Assert.fail(e.getMessage());
-			e.printStackTrace();
-		}
-
-	}
-	
-	@Test(priority=1)
-	
-	public void TCBA01002()
-	{
-		
-		try
-		{
+			
 			//Enter blank User Name
 			driver.findElement(By.xpath("//*[@id='txtUserName']")).clear();
 			
@@ -51,17 +36,18 @@ public class Associate_Login extends UtilityClass
 			String P2=getText("//*[@id='rwPassword']/label/following::p[1]");
 			Assert.assertEquals(P1+P2,"Passwordis required");
 			
+			
 		} 
-		catch (Exception e) 
+		catch (Exception e)
 		{
 			Assert.fail(e.getMessage());
 			e.printStackTrace();
 		}
-		
+
 	}
-	@Test(priority=2)
-	
-	public void TCBA01003()
+
+	@Test(priority=1)	
+	public void TCBA01002()
 	{
 		
 		try
@@ -89,8 +75,8 @@ public class Associate_Login extends UtilityClass
 		
 	}
 	
-	@Test(priority=3)	
-	public void TCBA01004()
+	@Test(priority=2)	
+	public void TCBA01003()
 	{
 		
 		try
@@ -118,8 +104,8 @@ public class Associate_Login extends UtilityClass
 		
 	}
 	
-	@Test(priority=4)	
-	public void TCBA01005()
+	@Test(priority=3)	
+	public void TCBA01004()
 	{
 		
 		try
@@ -141,8 +127,9 @@ public class Associate_Login extends UtilityClass
 			
 			Thread.sleep(2000);
 			
-			//Assert message User name is required
-			Assert.assertTrue(getText("//*[@id='login-panel']/div/div[2]/div[1]").contains("Username was not found"),"failed to assert text"+"  Username was not found.");
+			//Assert message Username was not found
+			Assert.assertEquals(getText("//*[@id='login-panel']/div/div[2]/div[1]"), "Username was not found."," Username was not found-message not found");		
+			
 
 		} 
 		catch (Exception e) 
@@ -153,8 +140,8 @@ public class Associate_Login extends UtilityClass
 		
 	}
 	
-	@Test(priority=5)	
-	public void TCBA01006()
+	@Test(priority=4)	
+	public void TCBA01005()
 	{
 		
 		try
@@ -174,11 +161,11 @@ public class Associate_Login extends UtilityClass
 			//click Login button
 			click("//*[@id='btnLogin']");
 			
-			Thread.sleep(3000);
+			Thread.sleep(3000);			
 			
 			//Assert message Invalid username or password
-			Assert.assertTrue(getText("//*[@id='login-panel']/div/div[2]/div[1]").contains("Invalid username or password"),"failed to assert text"+"  Invalid username or password");
-
+			Assert.assertEquals(getText("//div[@class='text-danger au-target']"), "Invalid username or password."," Invalid username or password.-message not found");
+			
 		} 
 		catch (Exception e) 
 		{
@@ -188,8 +175,8 @@ public class Associate_Login extends UtilityClass
 		
 	}
 	
-	@Test(priority=6)	
-	public void TCBA01007()
+	@Test(priority=5)	
+	public void TCBA01006()
 	{
 		
 		try {
@@ -207,10 +194,11 @@ public class Associate_Login extends UtilityClass
 			
 			//click Login button correct user name and invalid password after three or more login attempt.]
 			click("//*[@id='btnLogin']");			
-			Thread.sleep(1000);
+			Thread.sleep(3000);
 			click("//*[@id='btnLogin']");
-			Thread.sleep(1000);
+			Thread.sleep(3000);
 			click("//*[@id='btnLogin']");
+			Thread.sleep(3000);
 			
 			//To verify the validation message "You have been locked out. Please contact support." 
             String Blk_msg="You have been locked out. Please contact support.";
@@ -226,8 +214,8 @@ public class Associate_Login extends UtilityClass
 	   
 	}
 	
-	@Test(priority=8)	
-	public void TCBA01009()
+	@Test(priority=7)	
+	public void TCBA01008()
 	{
 		
 		try

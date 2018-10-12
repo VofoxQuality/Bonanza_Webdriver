@@ -1,96 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="8" passed="7">
+<testng-results skipped="0" failed="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40029" started-at="2018-10-11T13:01:15Z" finished-at="2018-10-11T13:01:55Z">
+  <suite name="Default suite" duration-ms="47590" started-at="2018-10-12T06:46:09Z" finished-at="2018-10-12T06:46:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="40029" started-at="2018-10-11T13:01:15Z" finished-at="2018-10-11T13:01:55Z">
+    <test name="Default test" duration-ms="47590" started-at="2018-10-12T06:46:09Z" finished-at="2018-10-12T06:46:56Z">
       <class name="com.Home.Associate_Login">
-        <test-method status="PASS" signature="setup1()[pri:0, instance:com.Home.Associate_Login@25b2fe]" name="setup1" is-config="true" duration-ms="25514" started-at="2018-10-11T18:31:15Z" finished-at="2018-10-11T18:31:40Z">
+        <test-method status="PASS" signature="setup1()[pri:0, instance:com.Home.Associate_Login@4f30ec]" name="setup1" is-config="true" duration-ms="25862" started-at="2018-10-12T12:16:09Z" finished-at="2018-10-12T12:16:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup1 -->
-        <test-method status="PASS" signature="TCBA01001()[pri:0, instance:com.Home.Associate_Login@25b2fe]" name="TCBA01001" duration-ms="12" started-at="2018-10-11T18:31:40Z" finished-at="2018-10-11T18:31:40Z">
+        <test-method status="PASS" signature="TCBA01001()[pri:0, instance:com.Home.Associate_Login@4f30ec]" name="TCBA01001" duration-ms="777" started-at="2018-10-12T12:16:35Z" finished-at="2018-10-12T12:16:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCBA01001 -->
-        <test-method status="PASS" signature="TCBA01002()[pri:0, instance:com.Home.Associate_Login@25b2fe]" name="TCBA01002" duration-ms="818" started-at="2018-10-11T18:31:40Z" finished-at="2018-10-11T18:31:41Z">
+        <test-method status="PASS" signature="TCBA01002()[pri:0, instance:com.Home.Associate_Login@4f30ec]" name="TCBA01002" duration-ms="732" started-at="2018-10-12T12:16:36Z" finished-at="2018-10-12T12:16:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCBA01002 -->
-        <test-method status="PASS" signature="TCBA01003()[pri:0, instance:com.Home.Associate_Login@25b2fe]" name="TCBA01003" duration-ms="429" started-at="2018-10-11T18:31:41Z" finished-at="2018-10-11T18:31:41Z">
+        <test-method status="PASS" signature="TCBA01003()[pri:0, instance:com.Home.Associate_Login@4f30ec]" name="TCBA01003" duration-ms="417" started-at="2018-10-12T12:16:36Z" finished-at="2018-10-12T12:16:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCBA01003 -->
-        <test-method status="PASS" signature="TCBA01004()[pri:0, instance:com.Home.Associate_Login@25b2fe]" name="TCBA01004" duration-ms="427" started-at="2018-10-11T18:31:41Z" finished-at="2018-10-11T18:31:42Z">
+        <test-method status="PASS" signature="TCBA01004()[pri:0, instance:com.Home.Associate_Login@4f30ec]" name="TCBA01004" duration-ms="2502" started-at="2018-10-12T12:16:37Z" finished-at="2018-10-12T12:16:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCBA01004 -->
-        <test-method status="PASS" signature="TCBA01005()[pri:0, instance:com.Home.Associate_Login@25b2fe]" name="TCBA01005" duration-ms="2468" started-at="2018-10-11T18:31:42Z" finished-at="2018-10-11T18:31:44Z">
+        <test-method status="PASS" signature="TCBA01005()[pri:0, instance:com.Home.Associate_Login@4f30ec]" name="TCBA01005" duration-ms="3510" started-at="2018-10-12T12:16:39Z" finished-at="2018-10-12T12:16:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCBA01005 -->
-        <test-method status="PASS" signature="TCBA01006()[pri:0, instance:com.Home.Associate_Login@25b2fe]" name="TCBA01006" duration-ms="3601" started-at="2018-10-11T18:31:44Z" finished-at="2018-10-11T18:31:48Z">
+        <test-method status="PASS" signature="TCBA01006()[pri:0, instance:com.Home.Associate_Login@4f30ec]" name="TCBA01006" duration-ms="10132" started-at="2018-10-12T12:16:43Z" finished-at="2018-10-12T12:16:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCBA01006 -->
-        <test-method status="FAIL" signature="TCBA01007()[pri:0, instance:com.Home.Associate_Login@25b2fe]" name="TCBA01007" duration-ms="3185" started-at="2018-10-11T18:31:48Z" finished-at="2018-10-11T18:31:51Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [You have been locked out. Please contact support.] but found [Log In
-User Name
-Password
-Log in
-Forgot your password? | Forgot your username?]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [You have been locked out. Please contact support.] but found [Log In
-User Name
-Password
-Log in
-Forgot your password? | Forgot your username?]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at org.testng.Assert.assertEquals(Assert.java:176)
-	at org.testng.Assert.assertEquals(Assert.java:186)
-	at com.Home.Associate_Login.TCBA01007(Associate_Login.java:217)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="TCBA01008()[pri:0, instance:com.Home.Associate_Login@4f30ec]" name="TCBA01008" duration-ms="3565" started-at="2018-10-12T12:16:53Z" finished-at="2018-10-12T12:16:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TCBA01007 -->
-        <test-method status="PASS" signature="TCBA01009()[pri:0, instance:com.Home.Associate_Login@25b2fe]" name="TCBA01009" duration-ms="3539" started-at="2018-10-11T18:31:51Z" finished-at="2018-10-11T18:31:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TCBA01009 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Home.Associate_Login@25b2fe]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-10-11T18:31:55Z" finished-at="2018-10-11T18:31:55Z">
+        </test-method> <!-- TCBA01008 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Home.Associate_Login@4f30ec]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-10-12T12:16:56Z" finished-at="2018-10-12T12:16:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -6,8 +6,9 @@
       <class name="com.Home.Associate_Login">
         <methods>
           <include name="tearDown"/>
-          <include name="TCBA01007"/>
           <include name="setup1"/>
+          <include name="TCBA01006"/>
+          <include name="TCBA01005"/>
         </methods>
       </class> <!-- com.Home.Associate_Login -->
     </classes>
