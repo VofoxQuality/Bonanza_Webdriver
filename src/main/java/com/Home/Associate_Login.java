@@ -179,6 +179,41 @@ public class Associate_Login extends UtilityClass
 	public void TCBA01006()
 	{
 		
+		try
+		{
+			//clear username field
+			driver.findElement(By.xpath("//*[@id='txtUserName']")).clear();
+			
+			//type InValid User Name
+			type("//*[@id='txtUserName']","fgfgfgfgf");
+			
+			//clear Password field
+			driver.findElement(By.xpath("//*[@id='txtPassword']")).clear();	
+			
+			//Enter Invalid Password
+			type("//*[@id='txtPassword']","dfdfdfdf");	
+			
+			//click Login button
+			click("//*[@id='btnLogin']");
+			
+			Thread.sleep(3000);			
+			
+			//Assert message Username was not found
+			Assert.assertEquals(getText("//div[@class='text-danger au-target']"), "Username was not found."," Username was not found.-message not found");
+			
+		} 
+		catch (Exception e) 
+		{
+			Assert.fail(e.getMessage());
+			e.printStackTrace();
+		}
+		
+	}
+	
+	@Test(priority=6)	
+	public void TCBA01007()
+	{
+		
 		try {
 			//clear username field
 			driver.findElement(By.xpath("//*[@id='txtUserName']")).clear();
