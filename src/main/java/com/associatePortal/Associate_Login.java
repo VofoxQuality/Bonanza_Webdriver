@@ -1,4 +1,4 @@
-package com.Home;
+package com.associatePortal;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -52,8 +52,6 @@ public class Associate_Login extends UtilityClass
 		
 		try
 		{
-			//Enter blank User Name
-			driver.findElement(By.xpath("//*[@id='txtUserName']")).clear();
 			
 			//Enter valid Password
 			type("//*[@id='txtPassword']","Password1!");			
@@ -110,15 +108,10 @@ public class Associate_Login extends UtilityClass
 		
 		try
 		{
-			//clear username field
-			driver.findElement(By.xpath("//*[@id='txtUserName']")).clear();
 			
 			//type invalid User Name
 			type("//*[@id='txtUserName']","dfgbfbgbnf");
-			
-			//clear Password field
-			driver.findElement(By.xpath("//*[@id='txtPassword']")).clear();	
-			
+		
 			//Enter Invalid Password
 			type("//*[@id='txtPassword']","dfdfdfdf");	
 			
@@ -146,14 +139,10 @@ public class Associate_Login extends UtilityClass
 		
 		try
 		{
-			//clear username field
-			driver.findElement(By.xpath("//*[@id='txtUserName']")).clear();
 			
 			//type Valid User Name
 			type("//*[@id='txtUserName']","Shinto-Test");
 			
-			//clear Password field
-			driver.findElement(By.xpath("//*[@id='txtPassword']")).clear();	
 			
 			//Enter Invalid Password
 			type("//*[@id='txtPassword']","dfdfdfdf");	
@@ -181,14 +170,10 @@ public class Associate_Login extends UtilityClass
 		
 		try
 		{
-			//clear username field
-			driver.findElement(By.xpath("//*[@id='txtUserName']")).clear();
 			
 			//type InValid User Name
 			type("//*[@id='txtUserName']","fgfgfgfgf");
 			
-			//clear Password field
-			driver.findElement(By.xpath("//*[@id='txtPassword']")).clear();	
 			
 			//Enter Invalid Password
 			type("//*[@id='txtPassword']","dfdfdfdf");	
@@ -215,14 +200,10 @@ public class Associate_Login extends UtilityClass
 	{
 		
 		try {
-			//clear username field
-			driver.findElement(By.xpath("//*[@id='txtUserName']")).clear();
 			
 			//type Valid User Name
 			type("//*[@id='txtUserName']","Shinto-Test2");
 			
-			//clear Password field
-			driver.findElement(By.xpath("//*[@id='txtPassword']")).clear();	
 			
 			//Enter Invalid Password
 			type("//*[@id='txtPassword']","Password1232222");
@@ -255,14 +236,9 @@ public class Associate_Login extends UtilityClass
 		
 		try
 		{
-			//clear username field
-			driver.findElement(By.xpath("//*[@id='txtUserName']")).clear();
 			
 			//type Valid User Name
 			type("//*[@id='txtUserName']","Shinto-Test");
-			
-			//clear Password field
-			driver.findElement(By.xpath("//*[@id='txtPassword']")).clear();	
 			
 			//Enter Valid Password
 			type("//*[@id='txtPassword']","Password1!");	
