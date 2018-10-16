@@ -1,4 +1,4 @@
 com\MyCustomers\My_customers.class
-com\Home\Associate_Login.class
 com\Home\Associate_Home.class
 com\Library\UtilityClass.class
+com\associatePortal\Associate_Login.class

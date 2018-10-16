@@ -1,4 +1,13 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 41.848 sec - in TestSuite
+Tests run: 16, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 86.859 sec <<< FAILURE! - in TestSuite
+TCBA01007(com.associatePortal.Associate_Login)  Time elapsed: 10.232 sec  <<< FAILURE!
+java.lang.AssertionError: expected [You have been locked out. Please contact support.] but found [Invalid username or password.]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.associatePortal.Associate_Login.TCBA01007(Associate_Login.java:221)
+
