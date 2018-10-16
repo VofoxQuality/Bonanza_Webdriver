@@ -1,53 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34456" started-at="2018-10-12T07:03:01Z" finished-at="2018-10-12T07:03:35Z">
+  <suite name="Suite" duration-ms="42751" started-at="2018-10-16T11:12:08Z" finished-at="2018-10-16T11:12:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34456" started-at="2018-10-12T07:03:01Z" finished-at="2018-10-12T07:03:35Z">
-      <class name="com.Home.Associate_Login">
-        <test-method status="PASS" signature="setup1()[pri:0, instance:com.Home.Associate_Login@25b2fe]" name="setup1" is-config="true" duration-ms="9405" started-at="2018-10-12T12:33:01Z" finished-at="2018-10-12T12:33:10Z">
+    <test name="Test" duration-ms="42751" started-at="2018-10-16T11:12:08Z" finished-at="2018-10-16T11:12:51Z">
+      <class name="com.Home.Associate_Home">
+        <test-method status="PASS" signature="setup1()[pri:0, instance:com.Home.Associate_Home@14ba872]" name="setup1" is-config="true" duration-ms="15128" started-at="2018-10-16T16:42:08Z" finished-at="2018-10-16T16:42:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup1 -->
-        <test-method status="PASS" signature="TCBA01001()[pri:0, instance:com.Home.Associate_Login@25b2fe]" name="TCBA01001" duration-ms="713" started-at="2018-10-12T12:33:10Z" finished-at="2018-10-12T12:33:11Z">
+        <test-method status="PASS" signature="TCBA01101()[pri:0, instance:com.Home.Associate_Home@14ba872]" name="TCBA01101" duration-ms="4031" started-at="2018-10-16T16:42:23Z" finished-at="2018-10-16T16:42:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TCBA01001 -->
-        <test-method status="PASS" signature="TCBA01002()[pri:0, instance:com.Home.Associate_Login@25b2fe]" name="TCBA01002" duration-ms="447" started-at="2018-10-12T12:33:11Z" finished-at="2018-10-12T12:33:12Z">
+        </test-method> <!-- TCBA01101 -->
+        <test-method status="PASS" signature="TCBA01102()[pri:0, instance:com.Home.Associate_Home@14ba872]" name="TCBA01102" duration-ms="21107" started-at="2018-10-16T16:42:27Z" finished-at="2018-10-16T16:42:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TCBA01002 -->
-        <test-method status="PASS" signature="TCBA01003()[pri:0, instance:com.Home.Associate_Login@25b2fe]" name="TCBA01003" duration-ms="488" started-at="2018-10-12T12:33:12Z" finished-at="2018-10-12T12:33:12Z">
+        </test-method> <!-- TCBA01102 -->
+        <test-method status="PASS" signature="TCBA01103()[pri:0, instance:com.Home.Associate_Home@14ba872]" name="TCBA01103" duration-ms="2463" started-at="2018-10-16T16:42:48Z" finished-at="2018-10-16T16:42:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TCBA01003 -->
-        <test-method status="PASS" signature="TCBA01004()[pri:0, instance:com.Home.Associate_Login@25b2fe]" name="TCBA01004" duration-ms="2506" started-at="2018-10-12T12:33:12Z" finished-at="2018-10-12T12:33:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TCBA01004 -->
-        <test-method status="PASS" signature="TCBA01005()[pri:0, instance:com.Home.Associate_Login@25b2fe]" name="TCBA01005" duration-ms="3521" started-at="2018-10-12T12:33:15Z" finished-at="2018-10-12T12:33:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TCBA01005 -->
-        <test-method status="PASS" signature="TCBA01006()[pri:0, instance:com.Home.Associate_Login@25b2fe]" name="TCBA01006" duration-ms="3594" started-at="2018-10-12T12:33:18Z" finished-at="2018-10-12T12:33:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TCBA01006 -->
-        <test-method status="PASS" signature="TCBA01007()[pri:0, instance:com.Home.Associate_Login@25b2fe]" name="TCBA01007" duration-ms="10088" started-at="2018-10-12T12:33:22Z" finished-at="2018-10-12T12:33:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TCBA01007 -->
-        <test-method status="PASS" signature="TCBA01008()[pri:0, instance:com.Home.Associate_Login@25b2fe]" name="TCBA01008" duration-ms="3560" started-at="2018-10-12T12:33:32Z" finished-at="2018-10-12T12:33:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TCBA01008 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Home.Associate_Login@25b2fe]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-10-12T12:33:35Z" finished-at="2018-10-12T12:33:35Z">
+        </test-method> <!-- TCBA01103 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Home.Associate_Home@14ba872]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-10-16T16:42:51Z" finished-at="2018-10-16T16:42:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.Home.Associate_Login -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.Home.Associate_Home -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

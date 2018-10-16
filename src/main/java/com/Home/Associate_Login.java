@@ -247,8 +247,7 @@ public class Associate_Login extends UtilityClass
 		}
 
 	   
-	}
-	
+	}	
 	@Test(priority=7)	
 	public void TCBA01008()
 	{
