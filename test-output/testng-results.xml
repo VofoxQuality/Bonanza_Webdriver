@@ -2,52 +2,52 @@
 <testng-results skipped="0" failed="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="35742" started-at="2018-10-15T07:00:58Z" finished-at="2018-10-15T07:01:33Z">
+  <suite name="Default suite" duration-ms="36250" started-at="2018-10-15T07:17:16Z" finished-at="2018-10-15T07:17:52Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="35742" started-at="2018-10-15T07:00:58Z" finished-at="2018-10-15T07:01:33Z">
+    <test name="Default test" duration-ms="36250" started-at="2018-10-15T07:17:16Z" finished-at="2018-10-15T07:17:52Z">
       <class name="com.associatePortal.Associate_Login">
-        <test-method status="PASS" signature="setup1()[pri:0, instance:com.associatePortal.Associate_Login@13deb50e]" name="setup1" is-config="true" duration-ms="10133" started-at="2018-10-15T12:30:58Z" finished-at="2018-10-15T12:31:08Z">
+        <test-method status="PASS" signature="setup1()[pri:0, instance:com.associatePortal.Associate_Login@13deb50e]" name="setup1" is-config="true" duration-ms="11149" started-at="2018-10-15T12:47:16Z" finished-at="2018-10-15T12:47:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup1 -->
-        <test-method status="PASS" signature="TCBA01001()[pri:0, instance:com.associatePortal.Associate_Login@13deb50e]" name="TCBA01001" duration-ms="801" started-at="2018-10-15T12:31:08Z" finished-at="2018-10-15T12:31:09Z">
+        <test-method status="PASS" signature="TCBA01001()[pri:0, instance:com.associatePortal.Associate_Login@13deb50e]" name="TCBA01001" duration-ms="817" started-at="2018-10-15T12:47:27Z" finished-at="2018-10-15T12:47:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCBA01001 -->
-        <test-method status="PASS" signature="TCBA01002()[pri:0, instance:com.associatePortal.Associate_Login@13deb50e]" name="TCBA01002" duration-ms="464" started-at="2018-10-15T12:31:09Z" finished-at="2018-10-15T12:31:09Z">
+        <test-method status="PASS" signature="TCBA01002()[pri:0, instance:com.associatePortal.Associate_Login@13deb50e]" name="TCBA01002" duration-ms="469" started-at="2018-10-15T12:47:28Z" finished-at="2018-10-15T12:47:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCBA01002 -->
-        <test-method status="PASS" signature="TCBA01003()[pri:0, instance:com.associatePortal.Associate_Login@13deb50e]" name="TCBA01003" duration-ms="501" started-at="2018-10-15T12:31:09Z" finished-at="2018-10-15T12:31:09Z">
+        <test-method status="PASS" signature="TCBA01003()[pri:0, instance:com.associatePortal.Associate_Login@13deb50e]" name="TCBA01003" duration-ms="516" started-at="2018-10-15T12:47:28Z" finished-at="2018-10-15T12:47:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCBA01003 -->
-        <test-method status="PASS" signature="TCBA01004()[pri:0, instance:com.associatePortal.Associate_Login@13deb50e]" name="TCBA01004" duration-ms="2513" started-at="2018-10-15T12:31:09Z" finished-at="2018-10-15T12:31:12Z">
+        <test-method status="PASS" signature="TCBA01004()[pri:0, instance:com.associatePortal.Associate_Login@13deb50e]" name="TCBA01004" duration-ms="2485" started-at="2018-10-15T12:47:29Z" finished-at="2018-10-15T12:47:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCBA01004 -->
-        <test-method status="PASS" signature="TCBA01005()[pri:0, instance:com.associatePortal.Associate_Login@13deb50e]" name="TCBA01005" duration-ms="3601" started-at="2018-10-15T12:31:12Z" finished-at="2018-10-15T12:31:16Z">
+        <test-method status="PASS" signature="TCBA01005()[pri:0, instance:com.associatePortal.Associate_Login@13deb50e]" name="TCBA01005" duration-ms="3517" started-at="2018-10-15T12:47:31Z" finished-at="2018-10-15T12:47:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCBA01005 -->
-        <test-method status="PASS" signature="TCBA01006()[pri:0, instance:com.associatePortal.Associate_Login@13deb50e]" name="TCBA01006" duration-ms="3530" started-at="2018-10-15T12:31:16Z" finished-at="2018-10-15T12:31:19Z">
+        <test-method status="PASS" signature="TCBA01006()[pri:0, instance:com.associatePortal.Associate_Login@13deb50e]" name="TCBA01006" duration-ms="3509" started-at="2018-10-15T12:47:35Z" finished-at="2018-10-15T12:47:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCBA01006 -->
-        <test-method status="PASS" signature="TCBA01007()[pri:0, instance:com.associatePortal.Associate_Login@13deb50e]" name="TCBA01007" duration-ms="10226" started-at="2018-10-15T12:31:19Z" finished-at="2018-10-15T12:31:29Z">
+        <test-method status="PASS" signature="TCBA01007()[pri:0, instance:com.associatePortal.Associate_Login@13deb50e]" name="TCBA01007" duration-ms="10178" started-at="2018-10-15T12:47:39Z" finished-at="2018-10-15T12:47:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCBA01007 -->
-        <test-method status="PASS" signature="TCBA01008()[pri:0, instance:com.associatePortal.Associate_Login@13deb50e]" name="TCBA01008" duration-ms="3957" started-at="2018-10-15T12:31:29Z" finished-at="2018-10-15T12:31:33Z">
+        <test-method status="PASS" signature="TCBA01008()[pri:0, instance:com.associatePortal.Associate_Login@13deb50e]" name="TCBA01008" duration-ms="3578" started-at="2018-10-15T12:47:49Z" finished-at="2018-10-15T12:47:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCBA01008 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.associatePortal.Associate_Login@13deb50e]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-10-15T12:31:33Z" finished-at="2018-10-15T12:31:33Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.associatePortal.Associate_Login@13deb50e]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-10-15T12:47:52Z" finished-at="2018-10-15T12:47:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.associatePortal.Associate_Login -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

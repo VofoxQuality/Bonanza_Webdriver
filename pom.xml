@@ -58,7 +58,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<!-- TestNG suite XML files -->
-						<suiteXmlFile>VBZ0011-Associate Home.xml</suiteXmlFile>
+						<!-- <suiteXmlFile>VBZ0011-Associate Home.xml</suiteXmlFile> -->
 						<suiteXmlFile>VBZ0010-Associate_Login.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
