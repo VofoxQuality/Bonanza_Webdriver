@@ -2,78 +2,29 @@
 <testng-results skipped="0" failed="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite name="Default suite" duration-ms="36250" started-at="2018-10-15T07:17:16Z" finished-at="2018-10-15T07:17:52Z">
+  <suite name="Default suite" duration-ms="65402" started-at="2018-10-19T15:41:34Z" finished-at="2018-10-19T15:42:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36250" started-at="2018-10-15T07:17:16Z" finished-at="2018-10-15T07:17:52Z">
-      <class name="com.associatePortal.Associate_Login">
-        <test-method status="PASS" signature="setup1()[pri:0, instance:com.associatePortal.Associate_Login@13deb50e]" name="setup1" is-config="true" duration-ms="11149" started-at="2018-10-15T12:47:16Z" finished-at="2018-10-15T12:47:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup1 -->
-        <test-method status="PASS" signature="TCBA01001()[pri:0, instance:com.associatePortal.Associate_Login@13deb50e]" name="TCBA01001" duration-ms="817" started-at="2018-10-15T12:47:27Z" finished-at="2018-10-15T12:47:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TCBA01001 -->
-        <test-method status="PASS" signature="TCBA01002()[pri:0, instance:com.associatePortal.Associate_Login@13deb50e]" name="TCBA01002" duration-ms="469" started-at="2018-10-15T12:47:28Z" finished-at="2018-10-15T12:47:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TCBA01002 -->
-        <test-method status="PASS" signature="TCBA01003()[pri:0, instance:com.associatePortal.Associate_Login@13deb50e]" name="TCBA01003" duration-ms="516" started-at="2018-10-15T12:47:28Z" finished-at="2018-10-15T12:47:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TCBA01003 -->
-        <test-method status="PASS" signature="TCBA01004()[pri:0, instance:com.associatePortal.Associate_Login@13deb50e]" name="TCBA01004" duration-ms="2485" started-at="2018-10-15T12:47:29Z" finished-at="2018-10-15T12:47:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TCBA01004 -->
-        <test-method status="PASS" signature="TCBA01005()[pri:0, instance:com.associatePortal.Associate_Login@13deb50e]" name="TCBA01005" duration-ms="3517" started-at="2018-10-15T12:47:31Z" finished-at="2018-10-15T12:47:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TCBA01005 -->
-        <test-method status="PASS" signature="TCBA01006()[pri:0, instance:com.associatePortal.Associate_Login@13deb50e]" name="TCBA01006" duration-ms="3509" started-at="2018-10-15T12:47:35Z" finished-at="2018-10-15T12:47:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TCBA01006 -->
-        <test-method status="PASS" signature="TCBA01007()[pri:0, instance:com.associatePortal.Associate_Login@13deb50e]" name="TCBA01007" duration-ms="10178" started-at="2018-10-15T12:47:39Z" finished-at="2018-10-15T12:47:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TCBA01007 -->
-        <test-method status="PASS" signature="TCBA01008()[pri:0, instance:com.associatePortal.Associate_Login@13deb50e]" name="TCBA01008" duration-ms="3578" started-at="2018-10-15T12:47:49Z" finished-at="2018-10-15T12:47:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TCBA01008 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.associatePortal.Associate_Login@13deb50e]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-10-15T12:47:52Z" finished-at="2018-10-15T12:47:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.associatePortal.Associate_Login -->
-=======
-  <suite name="Default suite" duration-ms="36777" started-at="2018-10-16T12:28:04Z" finished-at="2018-10-16T12:28:40Z">
-    <groups>
-    </groups>
-    <test name="Default test" duration-ms="36777" started-at="2018-10-16T12:28:04Z" finished-at="2018-10-16T12:28:40Z">
+    <test name="Default test" duration-ms="65402" started-at="2018-10-19T15:41:34Z" finished-at="2018-10-19T15:42:39Z">
       <class name="com.Home.Associate_Home">
-        <test-method status="PASS" signature="setup1()[pri:0, instance:com.Home.Associate_Home@14ba872]" name="setup1" is-config="true" duration-ms="13969" started-at="2018-10-16T17:58:04Z" finished-at="2018-10-16T17:58:18Z">
+        <test-method status="PASS" signature="setup1()[pri:0, instance:com.Home.Associate_Home@239963d8]" name="setup1" is-config="true" duration-ms="11116" started-at="2018-10-19T21:11:34Z" finished-at="2018-10-19T21:11:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup1 -->
-        <test-method status="PASS" signature="TCBA01101()[pri:0, instance:com.Home.Associate_Home@14ba872]" name="TCBA01101" duration-ms="3987" started-at="2018-10-16T17:58:18Z" finished-at="2018-10-16T17:58:22Z">
+        <test-method status="PASS" signature="TCBA01101()[pri:0, instance:com.Home.Associate_Home@239963d8]" name="TCBA01101" duration-ms="4103" started-at="2018-10-19T21:11:45Z" finished-at="2018-10-19T21:11:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCBA01101 -->
-        <test-method status="FAIL" signature="TCBA01102()[pri:0, instance:com.Home.Associate_Home@14ba872]" name="TCBA01102" duration-ms="16234" started-at="2018-10-16T17:58:22Z" finished-at="2018-10-16T17:58:38Z">
+        <test-method status="FAIL" signature="TCBA01102()[pri:0, instance:com.Home.Associate_Home@239963d8]" name="TCBA01102" duration-ms="47747" started-at="2018-10-19T21:11:49Z" finished-at="2018-10-19T21:12:37Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[ title My associate | 5-15 not found expected [true] but found [false]]]>
+              <![CDATA[Timeout during waiting for element: '//span[contains(text(),'26')]']]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError:  title My associate | 5-15 not found expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at com.Home.Associate_Home.TCBA01102(Associate_Home.java:128)
+              <![CDATA[java.lang.AssertionError: Timeout during waiting for element: '//span[contains(text(),'26')]'
+	at com.Library.UtilityClass.waitFor(UtilityClass.java:256)
+	at com.Library.UtilityClass.click(UtilityClass.java:168)
+	at com.Home.Associate_Home.TCBA01102(Associate_Home.java:139)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -95,25 +46,24 @@
 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
 	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCBA01102 -->
-        <test-method status="PASS" signature="TCBA01103()[pri:0, instance:com.Home.Associate_Home@14ba872]" name="TCBA01103" duration-ms="2556" started-at="2018-10-16T17:58:38Z" finished-at="2018-10-16T17:58:40Z">
+        <test-method status="PASS" signature="TCBA01103()[pri:0, instance:com.Home.Associate_Home@239963d8]" name="TCBA01103" duration-ms="2408" started-at="2018-10-19T21:12:37Z" finished-at="2018-10-19T21:12:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCBA01103 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Home.Associate_Home@14ba872]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-10-16T17:58:40Z" finished-at="2018-10-16T17:58:40Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Home.Associate_Home@239963d8]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-10-19T21:12:39Z" finished-at="2018-10-19T21:12:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.Home.Associate_Home -->
->>>>>>> a891f8683da567a7074af89aa02c649393c4b565
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
