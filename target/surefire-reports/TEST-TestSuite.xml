@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="24.392" tests="8" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="24.189" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
@@ -63,12 +63,12 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="TCBA01001" classname="com.associatePortal.Associate_Login" time="0.617"/>
-  <testcase name="TCBA01002" classname="com.associatePortal.Associate_Login" time="0.343"/>
-  <testcase name="TCBA01003" classname="com.associatePortal.Associate_Login" time="0.375"/>
-  <testcase name="TCBA01004" classname="com.associatePortal.Associate_Login" time="2.386"/>
-  <testcase name="TCBA01005" classname="com.associatePortal.Associate_Login" time="3.437"/>
-  <testcase name="TCBA01006" classname="com.associatePortal.Associate_Login" time="3.44"/>
-  <testcase name="TCBA01007" classname="com.associatePortal.Associate_Login" time="10.066"/>
-  <testcase name="TCBA01008" classname="com.associatePortal.Associate_Login" time="3.728"/>
+  <testcase name="TCBA01001" classname="com.associatePortal.Associate_Login" time="0.572"/>
+  <testcase name="TCBA01002" classname="com.associatePortal.Associate_Login" time="0.349"/>
+  <testcase name="TCBA01003" classname="com.associatePortal.Associate_Login" time="0.385"/>
+  <testcase name="TCBA01004" classname="com.associatePortal.Associate_Login" time="2.404"/>
+  <testcase name="TCBA01005" classname="com.associatePortal.Associate_Login" time="3.387"/>
+  <testcase name="TCBA01006" classname="com.associatePortal.Associate_Login" time="3.421"/>
+  <testcase name="TCBA01007" classname="com.associatePortal.Associate_Login" time="10.033"/>
+  <testcase name="TCBA01008" classname="com.associatePortal.Associate_Login" time="3.638"/>
 </testsuite>
