@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="24.189" tests="8" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="24.496" tests="8" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
@@ -63,12 +63,27 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="TCBA01001" classname="com.associatePortal.Associate_Login" time="0.572"/>
-  <testcase name="TCBA01002" classname="com.associatePortal.Associate_Login" time="0.349"/>
-  <testcase name="TCBA01003" classname="com.associatePortal.Associate_Login" time="0.385"/>
-  <testcase name="TCBA01004" classname="com.associatePortal.Associate_Login" time="2.404"/>
-  <testcase name="TCBA01005" classname="com.associatePortal.Associate_Login" time="3.387"/>
-  <testcase name="TCBA01006" classname="com.associatePortal.Associate_Login" time="3.421"/>
-  <testcase name="TCBA01007" classname="com.associatePortal.Associate_Login" time="10.033"/>
-  <testcase name="TCBA01008" classname="com.associatePortal.Associate_Login" time="3.638"/>
+  <testcase name="TCBA01001" classname="com.associatePortal.Associate_Login" time="0.621"/>
+  <testcase name="TCBA01002" classname="com.associatePortal.Associate_Login" time="0.377"/>
+  <testcase name="TCBA01003" classname="com.associatePortal.Associate_Login" time="0.398"/>
+  <testcase name="TCBA01004" classname="com.associatePortal.Associate_Login" time="2.42">
+    <failure message=" Username was not found-message not found expected [Username was not found.] but found [Log In&#10;User Name&#10;Password&#10;Log in&#10;Forgot your password? | Forgot your username?]" type="java.lang.AssertionError">java.lang.AssertionError:  Username was not found-message not found expected [Username was not found.] but found [Log In
+User Name
+Password
+Log in
+Forgot your password? | Forgot your username?]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at com.associatePortal.Associate_Login.TCBA01004(Associate_Login.java:124)
+</failure>
+    <system-err><![CDATA[JavaScript error: https://192.168.10.72/dist/app.bundle.js?v=LD3YJdtllH9YIBDsNRWOsKPsnt2ME4DmTWgxgwAFn7k line 4020 > eval, line 258: ReferenceError: event is not defined
+1543485331042	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+]]></system-err>
+  </testcase>
+  <testcase name="TCBA01005" classname="com.associatePortal.Associate_Login" time="3.44"/>
+  <testcase name="TCBA01006" classname="com.associatePortal.Associate_Login" time="3.458"/>
+  <testcase name="TCBA01007" classname="com.associatePortal.Associate_Login" time="10.027"/>
+  <testcase name="TCBA01008" classname="com.associatePortal.Associate_Login" time="3.755"/>
 </testsuite>

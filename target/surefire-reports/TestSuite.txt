@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 32.164 sec - in TestSuite
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 34.388 sec <<< FAILURE! - in TestSuite
+TCBA01004(com.associatePortal.Associate_Login)  Time elapsed: 2.42 sec  <<< FAILURE!
+java.lang.AssertionError:  Username was not found-message not found expected [Username was not found.] but found [Log In
+User Name
+Password
+Log in
+Forgot your password? | Forgot your username?]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at com.associatePortal.Associate_Login.TCBA01004(Associate_Login.java:124)
+

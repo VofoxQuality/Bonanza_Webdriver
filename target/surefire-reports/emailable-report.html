@@ -31,21 +31,36 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">8</td><td class="numi">8</td><td class="numi">0</td><td class="numi">0</td><td class="numi">31.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">7</td><td class="numi">7</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">34.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.associatePortal.Associate_Login</td><td><a href="#m1"><b>TCBA01004</b>  </a></td><td class="numi">1</td><td>1543485330691</td><td class="numi">2416</td></tr>
 <tr><th colspan="4">Test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="8">com.associatePortal.Associate_Login</td><td><a href="#m1"><b>TCBA01001</b>  </a></td><td class="numi">1</td><td>1543316980365</td><td class="numi">572</td></tr><tr class="passedodd"><td><a href="#m2"><b>TCBA01002</b>  </a></td><td class="numi">1</td><td>1543316980937</td><td class="numi">350</td></tr><tr class="passedodd"><td><a href="#m3"><b>TCBA01003</b>  </a></td><td class="numi">1</td><td>1543316981287</td><td class="numi">385</td></tr><tr class="passedodd"><td><a href="#m4"><b>TCBA01004</b>  </a></td><td class="numi">1</td><td>1543316981688</td><td class="numi">2404</td></tr><tr class="passedodd"><td><a href="#m5"><b>TCBA01005</b>  </a></td><td class="numi">1</td><td>1543316984092</td><td class="numi">3387</td></tr><tr class="passedodd"><td><a href="#m6"><b>TCBA01006</b>  </a></td><td class="numi">1</td><td>1543316987494</td><td class="numi">3421</td></tr><tr class="passedodd"><td><a href="#m7"><b>TCBA01007</b>  </a></td><td class="numi">1</td><td>1543316990915</td><td class="numi">10033</td></tr><tr class="passedodd"><td><a href="#m8"><b>TCBA01008</b>  </a></td><td class="numi">1</td><td>1543317000948</td><td class="numi">3639</td></tr>
+<tr class="passedodd"><td rowspan="7">com.associatePortal.Associate_Login</td><td><a href="#m2"><b>TCBA01001</b>  </a></td><td class="numi">1</td><td>1543485329293</td><td class="numi">623</td></tr><tr class="passedodd"><td><a href="#m3"><b>TCBA01002</b>  </a></td><td class="numi">1</td><td>1543485329916</td><td class="numi">377</td></tr><tr class="passedodd"><td><a href="#m4"><b>TCBA01003</b>  </a></td><td class="numi">1</td><td>1543485330293</td><td class="numi">398</td></tr><tr class="passedodd"><td><a href="#m5"><b>TCBA01005</b>  </a></td><td class="numi">1</td><td>1543485333111</td><td class="numi">3440</td></tr><tr class="passedodd"><td><a href="#m6"><b>TCBA01006</b>  </a></td><td class="numi">1</td><td>1543485336551</td><td class="numi">3459</td></tr><tr class="passedodd"><td><a href="#m7"><b>TCBA01007</b>  </a></td><td class="numi">1</td><td>1543485340010</td><td class="numi">10027</td></tr><tr class="passedodd"><td><a href="#m8"><b>TCBA01008</b>  </a></td><td class="numi">1</td><td>1543485350037</td><td class="numi">3756</td></tr>
 </table>
 <h1>Test</h1>
-<h2 id="m1">com.associatePortal.Associate_Login:TCBA01007</h2>
+<h2 id="m1">com.associatePortal.Associate_Login:TCBA01004</h2>
+<div style="padding-left:3em">
+<p> Username was not found-message not found expected [Username was not found.] but found [Log In
+User Name
+Password
+Log in
+Forgot your password? | Forgot your username?]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at com.associatePortal.Associate_Login.TCBA01004(Associate_Login.java:124)
+<br/>28 lines not shown
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
 <h2 id="m2">com.associatePortal.Associate_Login:TCBA01003</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m3">com.associatePortal.Associate_Login:TCBA01008</h2>
+<h2 id="m3">com.associatePortal.Associate_Login:TCBA01007</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m4">com.associatePortal.Associate_Login:TCBA01006</h2>
+<h2 id="m4">com.associatePortal.Associate_Login:TCBA01008</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 <h2 id="m5">com.associatePortal.Associate_Login:TCBA01005</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
@@ -53,6 +68,6 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <p class="totop"><a href="#summary">back to summary</a></p>
 <h2 id="m7">com.associatePortal.Associate_Login:TCBA01001</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m8">com.associatePortal.Associate_Login:TCBA01004</h2>
+<h2 id="m8">com.associatePortal.Associate_Login:TCBA01006</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>
