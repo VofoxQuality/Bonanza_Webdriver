@@ -2,48 +2,48 @@
 <testng-results skipped="0" failed="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="32128" started-at="2018-11-30T04:58:10Z" finished-at="2018-11-30T04:58:42Z">
+  <suite name="Suite" duration-ms="32559" started-at="2018-12-04T09:39:52Z" finished-at="2018-12-04T09:40:25Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="32128" started-at="2018-11-30T04:58:10Z" finished-at="2018-11-30T04:58:42Z">
+    <test name="Test" duration-ms="32559" started-at="2018-12-04T09:39:52Z" finished-at="2018-12-04T09:40:25Z">
       <class name="com.associatePortal.Associate_Login">
-        <test-method status="PASS" signature="setup1()[pri:0, instance:com.associatePortal.Associate_Login@60f82f98]" name="setup1" is-config="true" duration-ms="7893" started-at="2018-11-30T10:28:10Z" finished-at="2018-11-30T10:28:18Z">
+        <test-method status="PASS" signature="setup1()[pri:0, instance:com.associatePortal.Associate_Login@60f82f98]" name="setup1" is-config="true" duration-ms="8493" started-at="2018-12-04T15:09:52Z" finished-at="2018-12-04T15:10:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup1 -->
-        <test-method status="PASS" signature="TCBA01001()[pri:0, instance:com.associatePortal.Associate_Login@60f82f98]" name="TCBA01001" duration-ms="592" started-at="2018-11-30T10:28:18Z" finished-at="2018-11-30T10:28:18Z">
+        <test-method status="PASS" signature="TCBA01001()[pri:0, instance:com.associatePortal.Associate_Login@60f82f98]" name="TCBA01001" duration-ms="609" started-at="2018-12-04T15:10:01Z" finished-at="2018-12-04T15:10:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCBA01001 -->
-        <test-method status="PASS" signature="TCBA01002()[pri:0, instance:com.associatePortal.Associate_Login@60f82f98]" name="TCBA01002" duration-ms="358" started-at="2018-11-30T10:28:18Z" finished-at="2018-11-30T10:28:19Z">
+        <test-method status="PASS" signature="TCBA01002()[pri:0, instance:com.associatePortal.Associate_Login@60f82f98]" name="TCBA01002" duration-ms="360" started-at="2018-12-04T15:10:01Z" finished-at="2018-12-04T15:10:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCBA01002 -->
-        <test-method status="PASS" signature="TCBA01003()[pri:0, instance:com.associatePortal.Associate_Login@60f82f98]" name="TCBA01003" duration-ms="359" started-at="2018-11-30T10:28:19Z" finished-at="2018-11-30T10:28:19Z">
+        <test-method status="PASS" signature="TCBA01003()[pri:0, instance:com.associatePortal.Associate_Login@60f82f98]" name="TCBA01003" duration-ms="375" started-at="2018-12-04T15:10:02Z" finished-at="2018-12-04T15:10:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCBA01003 -->
-        <test-method status="PASS" signature="TCBA01004()[pri:0, instance:com.associatePortal.Associate_Login@60f82f98]" name="TCBA01004" duration-ms="2394" started-at="2018-11-30T10:28:19Z" finished-at="2018-11-30T10:28:21Z">
+        <test-method status="PASS" signature="TCBA01004()[pri:0, instance:com.associatePortal.Associate_Login@60f82f98]" name="TCBA01004" duration-ms="2429" started-at="2018-12-04T15:10:02Z" finished-at="2018-12-04T15:10:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCBA01004 -->
-        <test-method status="PASS" signature="TCBA01005()[pri:0, instance:com.associatePortal.Associate_Login@60f82f98]" name="TCBA01005" duration-ms="3448" started-at="2018-11-30T10:28:21Z" finished-at="2018-11-30T10:28:25Z">
+        <test-method status="PASS" signature="TCBA01005()[pri:0, instance:com.associatePortal.Associate_Login@60f82f98]" name="TCBA01005" duration-ms="3423" started-at="2018-12-04T15:10:04Z" finished-at="2018-12-04T15:10:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCBA01005 -->
-        <test-method status="PASS" signature="TCBA01006()[pri:0, instance:com.associatePortal.Associate_Login@60f82f98]" name="TCBA01006" duration-ms="3400" started-at="2018-11-30T10:28:25Z" finished-at="2018-11-30T10:28:28Z">
+        <test-method status="PASS" signature="TCBA01006()[pri:0, instance:com.associatePortal.Associate_Login@60f82f98]" name="TCBA01006" duration-ms="3415" started-at="2018-12-04T15:10:08Z" finished-at="2018-12-04T15:10:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCBA01006 -->
-        <test-method status="PASS" signature="TCBA01007()[pri:0, instance:com.associatePortal.Associate_Login@60f82f98]" name="TCBA01007" duration-ms="10019" started-at="2018-11-30T10:28:28Z" finished-at="2018-11-30T10:28:38Z">
+        <test-method status="PASS" signature="TCBA01007()[pri:0, instance:com.associatePortal.Associate_Login@60f82f98]" name="TCBA01007" duration-ms="9999" started-at="2018-12-04T15:10:11Z" finished-at="2018-12-04T15:10:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCBA01007 -->
-        <test-method status="PASS" signature="TCBA01008()[pri:0, instance:com.associatePortal.Associate_Login@60f82f98]" name="TCBA01008" duration-ms="3652" started-at="2018-11-30T10:28:38Z" finished-at="2018-11-30T10:28:42Z">
+        <test-method status="PASS" signature="TCBA01008()[pri:0, instance:com.associatePortal.Associate_Login@60f82f98]" name="TCBA01008" duration-ms="3456" started-at="2018-12-04T15:10:21Z" finished-at="2018-12-04T15:10:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCBA01008 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.associatePortal.Associate_Login@60f82f98]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-11-30T10:28:42Z" finished-at="2018-11-30T10:28:42Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.associatePortal.Associate_Login@60f82f98]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-04T15:10:25Z" finished-at="2018-12-04T15:10:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
