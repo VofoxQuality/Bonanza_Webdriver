@@ -23,7 +23,7 @@ public class Associate_Login extends UtilityClass
 			//Enter blank Password
 			driver.findElement(By.xpath("//*[@id='txtPassword']")).clear();
 			
-			//click Login button
+			//click on Login button
 			click("//*[@id='btnLogin']");
 			
 			//Assert message User name is required
