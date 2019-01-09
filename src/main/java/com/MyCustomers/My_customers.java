@@ -8,9 +8,16 @@ import org.testng.annotations.Test;
 
 import com.Library.UtilityClass;
 
+/**
+ * 
+ * @author Akhil
+ *
+ */
 public class My_customers extends UtilityClass
 {
-	String limit_101="1234567890abcdefghij1234567890abcdefghij1234567890abcdefghij1234567890abcdefghij1234567890abcdefghij1234567890abcdefghij1234567890abcdefghij1234567890abcdefghij1";
+	String limit_101="1234567890abcdefghij1234567890abcdefghij1234567890abc"
+			+ "defghij1234567890abcdefghij1234567890abcdefghij1234567890abcd"
+			+ "efghij1234567890abcdefghij1234567890abcdefghij1";
 	
 	@Test(priority=0)
 	public void TCBA01401()

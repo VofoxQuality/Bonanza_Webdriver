@@ -243,7 +243,7 @@ public class Associate_Login extends UtilityClass
 			type("//*[@id='txtPassword']","Password1!");	
 			
 			//click Login button
-			click("//*[@id='btnLogin']");
+			JavaScriptclick("//*[@id='btnLogin']");
 			
 			Thread.sleep(3000);
 			
