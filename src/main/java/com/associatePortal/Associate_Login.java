@@ -15,7 +15,7 @@ public class Associate_Login extends UtilityClass
 		try
 		{
 			String title=driver.getTitle();			
-			Assert.assertEquals(title,"IGL");
+			Assert.assertEquals(title,"Log In | 5-15");
 			
 			//Enter blank User Name
 			driver.findElement(By.xpath("//*[@id='txtUserName']")).clear();
