@@ -13,7 +13,7 @@ public class Associate_Login extends UtilityClass
 	{
 		try
 		{
-			Thread.sleep(2000);
+			Thread.sleep(2500);
 			String title=driver.getTitle();			
 			Assert.assertEquals(title,"Log In | 5-15");
 			

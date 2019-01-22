@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.associatePortal.Associate_Login">
+        <methods>
+          <include name="TCBA01008"/>
+          <include name="TCBA01003"/>
+          <include name="TCBA01002"/>
+          <include name="setup1"/>
+          <include name="TCBA01001"/>
+          <include name="TCBA01007"/>
+          <include name="TCBA01006"/>
+          <include name="TCBA01005"/>
+          <include name="TCBA01004"/>
+        </methods>
+      </class> <!-- com.associatePortal.Associate_Login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
