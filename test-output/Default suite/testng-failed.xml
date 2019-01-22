@@ -6,8 +6,14 @@
       <class name="com.associatePortal.Associate_Login">
         <methods>
           <include name="tearDown"/>
+          <include name="TCBA01008"/>
+          <include name="TCBA01003"/>
+          <include name="TCBA01002"/>
           <include name="setup1"/>
+          <include name="TCBA01001"/>
           <include name="TCBA01007"/>
+          <include name="TCBA01006"/>
+          <include name="TCBA01005"/>
           <include name="TCBA01004"/>
         </methods>
       </class> <!-- com.associatePortal.Associate_Login -->
